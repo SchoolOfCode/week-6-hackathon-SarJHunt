@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "vitest"
+
   },
   "author": "School of Code",
   "license": "ISC",
