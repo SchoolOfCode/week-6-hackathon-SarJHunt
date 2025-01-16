@@ -47,45 +47,17 @@
 // year: 2022, winner: 'Argentina' 
 
 export function countryTotalWins(worldCups, euros, country) {
-    const eurosWins = [
-        { year: 1972, winner: 'West Germany' },
-        { year: 1976, winner: 'Czechoslovakia' },
-        { year: 1980, winner: 'West Germany' },
-        { year: 1984, winner: 'France' },
-        { year: 1988, winner: 'Netherlands' },
-        { year: 1992, winner: 'Denmark' },
-        { year: 1996, winner: 'Germany' },
-        { year: 2000, winner: 'France' },
-        { year: 2004, winner: 'Greece' },
-        { year: 2008, winner: 'Spain' },
-        { year: 2012, winner: 'Spain' },
-        { year: 2016, winner: 'Portugal' },
-        { year: 2020, winner: 'Italy' },
-        ];
-    
-        const worldCupWins = [
-        { year: 1970, winner: 'Brazil' },
-        { year: 1974, winner: 'West Germany' },
-        { year: 1978, winner: 'Argentina' },
-        { year: 1982, winner: 'Italy' },
-        { year: 1986, winner: 'Argentina' },
-        { year: 1990, winner: 'West Germany' },
-        { year: 1994, winner: 'Brazil' },
-        { year: 1998, winner: 'France' },
-        { year: 2002, winner: 'Brazil' },
-        { year: 2006, winner: 'Italy' },
-        { year: 2010, winner: 'Spain' },
-        { year: 2014, winner: 'Germany' },
-        { year: 2018, winner: 'France' }
-        ];
     let totalWins = 0;
+    
+    // Normalize the country name to lowercase
+    const normalisedCountry = country.toLowerCase();
   
-    // Count World Cup wins
-    totalWins += worldCups.filter(match => match.winner === country).length;
-  
-    // Count Euro wins
-    totalWins += eurosWins.filter(match => match.winner === country).length;
+    // Count World Cup wins (case-insensitive)
+    totalWins += worldCups.filter(match => match.winner.toLowerCase() === normalisedCountry).length;
+    
+    // Count Euro wins (case-insensitive)
+    totalWins += euros.filter(match => match.winner.toLowerCase() === normalisedCountry).length;
   
     return totalWins;
-};
+  };
 
