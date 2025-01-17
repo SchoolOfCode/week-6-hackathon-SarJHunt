@@ -88,3 +88,8 @@ I also ran test coverage:
 - To  increase the difficult of the kata, you could look to:
 1. Add more tournaments - like the Copa América.
 2. Add in the runner-up as well as the winner of a particular tournament
+
+
+⏭️ **Feedback**
+
+- Sami solved my kata and said he thought it was fun and a good challenge. 
