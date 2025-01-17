@@ -1,11 +1,12 @@
-/* Thanks for trying out my kata for size! It's a bit of edu-tainment - solving a challenge and learning some fun sports facts along the way.
+// Thanks for trying out my kata for size! It's a bit of edu-tainment - solving a challenge and learning some fun sports facts along the way.
 
-- Create a function that calculates a country's total tournament wins across the World Cup and Euros since 1970, using the two lists below.
-- If the country is included, it should return the total number of wins. You should account for the input of a country that is not listed, and also the input of a country regardless of whether it is uppercase or lowercase.
-- For example, if the country is France, the number of total wins will be 4 - they have won 2 World Cups and 2 Euros.
+// - Create a function that calculates a country's total tournament wins across the World Cup and Euros since 1970, using the two lists below.
 
+// - If the country is included, it should return the total number of wins. You should account for the input of a country that is not listed, and also the input of a country regardless of whether it is uppercase or lowercase.
 
-- The solution is in the answer.js file if you get stuck!
+// - For example, if the country is France, the number of total wins will be 4 - they have won 2 World Cups and 2 Euros.
+
+// - The solution is in the answer.js file if you get stuck!
 
 
 export function countryTotalWins(worldCups, euros, country) {
@@ -49,4 +50,4 @@ year: 2022, winner: 'Argentina'
 Hope you enjoy - let me know if you have any feedback!
 
 
-/* 
+/*/
