@@ -6,10 +6,13 @@
 - We then developed several potential challenges within the sports theme and agreed which kata each team member would develop.
 - Finally, we created team guidelines that outlined our collaboration methods, the check-in frequency, and our approach to troubleshooting the katas.
 
-💻 **Planning phase**
+💻 **Implementation phase**
 
 - I used the Three As approach from the Test-Driven Development approach to create a minimal test with the initial function setup.
 - Next, I developed the function, researching methods to extract relevant data from two arrays of objects, as this was my first time working with such a task.
+- Finally, with the working function, I thought about the testing cases and started to write those, using 'it' instead of 'test' as it read logically for other users.
+
+![alt text](image-1.png)
 
 🥷🏻 **Kata description:** 
 
@@ -60,14 +63,19 @@ year: 2022, winner: 'Argentina'
 
 I tested for the following:
 
-![alt text](image.png)
-
 - The country input is not in sentence case - user will need to use the ‘toLowercase’ in the code.
 - The country input has not won any of the tournaments - e.g. England.
 - The country has won titles in both tournaments - to ensure accessing both arrays.
 - The country has only won one of the tournaments.
 - The arrays are empty (missing the tournament data).
 - The country is an invalid name - e.g. Testland.
+
+It was very satisfying to needle out the issues on the tests and get them to pass 🎉
+![alt text](image.png)
+
+I also ran test coverage:
+
+![alt text](image-2.png)
 
 💪🏻**Issues I came up against**
 
@@ -80,5 +88,3 @@ I tested for the following:
 - To  increase the difficult of the kata, you could look to:
 1. Add more tournaments - like the Copa América.
 2. Add in the runner-up as well as the winner of a particular tournament
-
-/

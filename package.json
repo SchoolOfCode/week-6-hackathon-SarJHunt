@@ -5,12 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "vitest"
-
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "author": "School of Code",
   "license": "ISC",
   "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.8",
     "vitest": "^2.1.8"
   }
 }
