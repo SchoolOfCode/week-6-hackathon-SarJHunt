@@ -1,5 +1,5 @@
 
-#ONLY USE IF STUCK!#
+//#ONLY USE IF STUCK!#
 
 //Here's just one way of writing that function to pass the tests:
 
