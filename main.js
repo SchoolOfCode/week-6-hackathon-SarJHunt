@@ -12,23 +12,23 @@ export function countryTotalWins(worldCups, euros, country) {
     //Your code here...
 }
 
-// */
-// ```jsx
-// Euros
-// year: 1972, winner: 'West Germany'
-// year: 1976, winner: 'Czechoslovakia'
-// year: 1980, winner: 'West Germany'
-// year: 1984, winner: 'France'
-// year: 1988, winner: 'Netherlands'
-// year: 1992, winner: 'Denmark'
-// year: 1996, winner: 'Germany'
-// year: 2000, winner: 'France'
-// year: 2004, winner: 'Greece'
-// year: 2008, winner: 'Spain'
-// year: 2012, winner: 'Spain'
-// year: 2016, winner: 'Portugal'
-// year: 2020, winner: 'Italy'
-// year: 2024, winner: 'Spain'
+*/
+```jsx
+Euros
+year: 1972, winner: 'West Germany'
+year: 1976, winner: 'Czechoslovakia'
+year: 1980, winner: 'West Germany'
+year: 1984, winner: 'France'
+year: 1988, winner: 'Netherlands'
+year: 1992, winner: 'Denmark'
+year: 1996, winner: 'Germany'
+year: 2000, winner: 'France'
+year: 2004, winner: 'Greece'
+year: 2008, winner: 'Spain'
+year: 2012, winner: 'Spain'
+year: 2016, winner: 'Portugal'
+year: 2020, winner: 'Italy'
+year: 2024, winner: 'Spain'
 
 World Cup
 year: 1970, winner: 'Brazil'
