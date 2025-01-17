@@ -13,7 +13,7 @@ export function countryTotalWins(worldCups, euros, country) {
     //Your code here...
 }
 
-*/
+/*/
 ```jsx
 Euros
 year: 1972, winner: 'West Germany'
