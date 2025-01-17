@@ -14,16 +14,18 @@
 
 ![alt text](image-1.png)
 
-🥷🏻 **Kata description:** 
+## 🥷🏻 **Kata description:** 
 
-- Create a function that calculates a country's total tournament wins across the World Cup and Euros since 1970, using the two lists below.
-- If the country is included, it should return the total number of wins. You should account for the input of a country that is not listed, and also the input of a country regardless of whether it is uppercase or lowercase.
+Create a function that calculates a country's total tournament wins across the World Cup and Euros since 1970, using the two lists below. The function should:
 
-```
+1. Return the total number of wins if the country is included.
+2. Handle input of a country that is not listed.
+3. Be case-insensitive to the input country name.
+
+```javascript
 function countryTotalWins(worldCups, euros, country) {
-    //Your code here...
+    // Your code here...
 }
-```
 
 ```jsx
 Euros
@@ -58,10 +60,7 @@ year: 2014, winner: 'Germany'
 year: 2018, winner: 'France'
 year: 2022, winner: 'Argentina' 
 ```
-
-🧪 **Testing approaches**
-
-I tested for the following:
+### 🧪 **Testing approaches**
 
 - The country input is not in sentence case - user will need to use the ‘toLowercase’ in the code.
 - The country input has not won any of the tournaments - e.g. England.
@@ -90,6 +89,10 @@ I also ran test coverage:
 2. Add in the runner-up as well as the winner of a particular tournament
 
 
-⏭️ **Feedback**
+💬 **Feedback**
 
-- Sami solved my kata and said he thought it was fun and a good challenge. 
+Sami, who took on my kata, said:
+
+"I found the instructions pretty clear and very well structured. I had to do a little bit of googling to work on the lowercase sensitivity which was nice to refresh some knowledge. I did have to scratch my head a bit as well because I didn't know if the list passed was an array or an object, but it made sense that it would be an array storing a list of objects.
+Great Kata!"
+
