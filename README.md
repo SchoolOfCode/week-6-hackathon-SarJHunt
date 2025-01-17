@@ -5,6 +5,8 @@
 
 - For example, if the country is France, the number of total wins will be 4 - they have won 2 World Cups and 2 Euros.
 
+- Head to the main.js file to implement your code.
+
 - The solution is in the answer.js file if you get stuck!
 
 ```
